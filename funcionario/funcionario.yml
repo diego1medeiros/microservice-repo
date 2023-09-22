@@ -4,8 +4,9 @@ spring:
    username: postgres
    url: jdbc:postgresql://localhost/funcionarios
 
-spring.rabbitmq.host=localhost
-spring.rabbitmq.port=5672
-spring.rabbitmq.username=guest
-spring.rabbitmq.password=guest
+ rabbitmq:
+       host: localhost
+       port: 5672
+       username: guest
+       password: guest
 
