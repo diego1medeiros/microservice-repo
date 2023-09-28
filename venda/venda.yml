@@ -3,3 +3,8 @@ spring:
    password: 1234
    username: postgres
    url: jdbc:postgresql://localhost/vendas
+   rabbitmq:
+       host: localhost
+       port: 5672
+       username: diego
+       password: 1234
