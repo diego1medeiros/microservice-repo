@@ -2,7 +2,7 @@ spring:
   datasource:
    password: 1234
    username: postgres
-   url: jdbc:postgresql://postgres:5432/clientes
+   url: jdbc:postgresql://localhost:5432/clientes
   rabbitmq:
        host: rabbitmq
        port: 5672
